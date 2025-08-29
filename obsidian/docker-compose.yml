@@ -1,0 +1,15 @@
+services:
+  couchdb:
+    image: couchdb:latest
+    container_name: couchdb-for-ols
+    environment:
+      - TZ=America/New_York
+      #change for online access
+      - COUCHDB_USER='obsidian-user'
+      - COUCHDB_PASSWORD='admin'
+    volumes:
+      - ./couchdb-data:/opt/couchdb/data
+      - ./couchdb-etc:/opt/couchdb/etc/local.d
+    ports:
+      - 5984:5984
+    restart: unless-stopped

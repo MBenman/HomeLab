@@ -1,0 +1,16 @@
+$TTL 2d
+$ORIGIN pi.maxwellbenman.com.
+
+@               IN      SOA     ns.pi.maxwellbenman.com. info.maxwellbenman.com. (
+                                2025072200      ; serial
+                                12h             ; refresh
+                                15m             ; retry
+                                3w              ; expire
+                                2h              ; minimum TTL
+                                )
+                IN      NS      ns.pi.maxwellbenman.com.
+
+ns              IN      A       192.168.1.172
+
+; -- add dns records below
+                                

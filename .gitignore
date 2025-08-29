@@ -1,0 +1,7 @@
+
+couchdb-data
+
+# Environments
+.env
+env/
+venv/
