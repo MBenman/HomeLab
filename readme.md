@@ -21,6 +21,7 @@ A containerized homelab server and DevOps playground where my boss won’t yell 
 		* CouchDB
 * Ollama Self-Hosted LLM 
 	* Running gemma3
+    
 
 ## Management/Utilities
 * Bind9 DNS
